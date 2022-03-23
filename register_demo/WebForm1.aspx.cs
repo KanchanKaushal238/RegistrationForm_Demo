@@ -37,11 +37,12 @@ namespace register_demo
             sd.password = TextBox4.Text;
             student.register_students.InsertOnSubmit(sd);
             student.SubmitChanges();
+            }
             TextBox1.Text = "";
             TextBox2.Text = "";
             TextBox3.Text = "";
             TextBox4.Text = "";
-                }
+                
         }
     }
 }
